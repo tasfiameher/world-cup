@@ -1,0 +1,77 @@
+/* ---fonts--- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    background-color: #161616;
+    color: white;
+    width: 75%;
+    height: 60%;
+    border-radius: 10px;
+    padding-left: 20px;
+    text-align: center;
+    position: absolute;
+
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.img {
+    height: 100%;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.blog {
+    background-color: white;
+}
+
+.second-position {
+    background-color: #161616;
+}
+
+.button-blog {
+    color: red;
+}
+
+.image-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+
+}
+
+.image {
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+}
+
+footer {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+}
+
+footer hr,
+p {
+    color: white;
+}
