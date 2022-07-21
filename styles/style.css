@@ -65,6 +65,10 @@ main {
     height: 200px;
 }
 
+p {
+    color: #161616;
+}
+
 footer {
     background-color: #161616;
     color: white;
@@ -74,4 +78,40 @@ footer {
 footer hr,
 p {
     color: white;
+}
+
+.fa-facebook-square .fa-instagram-square .fa-linkedin {
+    color: white;
+}
+
+/*---- Media Queries---- */
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .image-info footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+}
+
+/* --tablet devices-- */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+
+    .image-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog {
+        justify-content: center;
+    }
+
 }
